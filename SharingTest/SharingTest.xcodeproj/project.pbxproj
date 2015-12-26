@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		819D1A651C2E9B4C005D263D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1A641C2E9B4C005D263D /* main.m */; };
+		819D1A681C2E9B4C005D263D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1A671C2E9B4C005D263D /* AppDelegate.m */; };
+		819D1A6B1C2E9B4C005D263D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1A6A1C2E9B4C005D263D /* ViewController.m */; };
+		819D1A6E1C2E9B4C005D263D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819D1A6C1C2E9B4C005D263D /* Main.storyboard */; };
+		819D1A701C2E9B4C005D263D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819D1A6F1C2E9B4C005D263D /* Images.xcassets */; };
+		819D1A731C2E9B4C005D263D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 819D1A711C2E9B4C005D263D /* LaunchScreen.xib */; };
+		819D1A7F1C2E9B4C005D263D /* SharingTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1A7E1C2E9B4C005D263D /* SharingTestTests.m */; };
+		819D1B661C2E9C58005D263D /* BNCContentDiscoveryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B171C2E9C58005D263D /* BNCContentDiscoveryManager.m */; };
+		819D1B671C2E9C58005D263D /* BNCDebugRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B191C2E9C58005D263D /* BNCDebugRequest.m */; };
+		819D1B681C2E9C58005D263D /* BNCEncodingUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B1B1C2E9C58005D263D /* BNCEncodingUtils.m */; };
+		819D1B691C2E9C58005D263D /* BNCError.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B1D1C2E9C58005D263D /* BNCError.m */; };
+		819D1B6A1C2E9C58005D263D /* BNCLinkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B1F1C2E9C58005D263D /* BNCLinkCache.m */; };
+		819D1B6B1C2E9C58005D263D /* BNCLinkData.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B211C2E9C58005D263D /* BNCLinkData.m */; };
+		819D1B6C1C2E9C58005D263D /* BNCPreferenceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B231C2E9C58005D263D /* BNCPreferenceHelper.m */; };
+		819D1B6D1C2E9C58005D263D /* BNCServerInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B251C2E9C58005D263D /* BNCServerInterface.m */; };
+		819D1B6E1C2E9C58005D263D /* BNCServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B271C2E9C58005D263D /* BNCServerRequest.m */; };
+		819D1B6F1C2E9C58005D263D /* BNCServerRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B291C2E9C58005D263D /* BNCServerRequestQueue.m */; };
+		819D1B701C2E9C58005D263D /* BNCServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B2B1C2E9C58005D263D /* BNCServerResponse.m */; };
+		819D1B711C2E9C58005D263D /* BNCStrongMatchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B2D1C2E9C58005D263D /* BNCStrongMatchHelper.m */; };
+		819D1B721C2E9C58005D263D /* BNCSystemObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B2F1C2E9C58005D263D /* BNCSystemObserver.m */; };
+		819D1B731C2E9C58005D263D /* Branch.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B321C2E9C58005D263D /* Branch.m */; };
+		819D1B741C2E9C58005D263D /* BranchActivityItemProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B341C2E9C58005D263D /* BranchActivityItemProvider.m */; };
+		819D1B751C2E9C58005D263D /* BranchApplyPromoCodeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B361C2E9C58005D263D /* BranchApplyPromoCodeRequest.m */; };
+		819D1B761C2E9C58005D263D /* BranchCloseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B381C2E9C58005D263D /* BranchCloseRequest.m */; };
+		819D1B771C2E9C58005D263D /* BranchConnectDebugRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B3A1C2E9C58005D263D /* BranchConnectDebugRequest.m */; };
+		819D1B781C2E9C58005D263D /* BranchConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B3C1C2E9C58005D263D /* BranchConstants.m */; };
+		819D1B791C2E9C58005D263D /* BranchCreditHistoryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B3E1C2E9C58005D263D /* BranchCreditHistoryRequest.m */; };
+		819D1B7A1C2E9C58005D263D /* BranchCSSearchableItemAttributeSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B401C2E9C58005D263D /* BranchCSSearchableItemAttributeSet.m */; };
+		819D1B7B1C2E9C58005D263D /* BranchDisconnectDebugRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B431C2E9C58005D263D /* BranchDisconnectDebugRequest.m */; };
+		819D1B7C1C2E9C58005D263D /* BranchGetPromoCodeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B451C2E9C58005D263D /* BranchGetPromoCodeRequest.m */; };
+		819D1B7D1C2E9C58005D263D /* BranchInstallRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B471C2E9C58005D263D /* BranchInstallRequest.m */; };
+		819D1B7E1C2E9C58005D263D /* BranchLinkProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B491C2E9C58005D263D /* BranchLinkProperties.m */; };
+		819D1B7F1C2E9C58005D263D /* BranchLoadActionsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B4B1C2E9C58005D263D /* BranchLoadActionsRequest.m */; };
+		819D1B801C2E9C58005D263D /* BranchLoadRewardsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B4D1C2E9C58005D263D /* BranchLoadRewardsRequest.m */; };
+		819D1B811C2E9C58005D263D /* BranchLogoutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B4F1C2E9C58005D263D /* BranchLogoutRequest.m */; };
+		819D1B821C2E9C58005D263D /* BranchLogRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B511C2E9C58005D263D /* BranchLogRequest.m */; };
+		819D1B831C2E9C58005D263D /* BranchOpenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B531C2E9C58005D263D /* BranchOpenRequest.m */; };
+		819D1B841C2E9C58005D263D /* BranchRedeemRewardsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B551C2E9C58005D263D /* BranchRedeemRewardsRequest.m */; };
+		819D1B851C2E9C58005D263D /* BranchRegisterViewRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B571C2E9C58005D263D /* BranchRegisterViewRequest.m */; };
+		819D1B861C2E9C58005D263D /* BranchSetIdentityRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B591C2E9C58005D263D /* BranchSetIdentityRequest.m */; };
+		819D1B871C2E9C58005D263D /* BranchShortUrlRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B5B1C2E9C58005D263D /* BranchShortUrlRequest.m */; };
+		819D1B881C2E9C58005D263D /* BranchShortUrlSyncRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B5D1C2E9C58005D263D /* BranchShortUrlSyncRequest.m */; };
+		819D1B891C2E9C58005D263D /* BranchSpotlightUrlRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B5F1C2E9C58005D263D /* BranchSpotlightUrlRequest.m */; };
+		819D1B8A1C2E9C58005D263D /* BranchUniversalObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B611C2E9C58005D263D /* BranchUniversalObject.m */; };
+		819D1B8B1C2E9C58005D263D /* BranchUserCompletedActionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B631C2E9C58005D263D /* BranchUserCompletedActionRequest.m */; };
+		819D1B8C1C2E9C58005D263D /* BranchValidatePromoCodeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B651C2E9C58005D263D /* BranchValidatePromoCodeRequest.m */; };
+		819D1B8F1C2EA6EC005D263D /* ImgurUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 819D1B8E1C2EA6EC005D263D /* ImgurUploader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		819D1A791C2E9B4C005D263D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 819D1A571C2E9B4C005D263D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 819D1A5E1C2E9B4C005D263D;
+			remoteInfo = SharingTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		819D1A5F1C2E9B4C005D263D /* SharingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		819D1A631C2E9B4C005D263D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819D1A641C2E9B4C005D263D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		819D1A661C2E9B4C005D263D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		819D1A671C2E9B4C005D263D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		819D1A691C2E9B4C005D263D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		819D1A6A1C2E9B4C005D263D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		819D1A6D1C2E9B4C005D263D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		819D1A6F1C2E9B4C005D263D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		819D1A721C2E9B4C005D263D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		819D1A781C2E9B4C005D263D /* SharingTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharingTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		819D1A7D1C2E9B4C005D263D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819D1A7E1C2E9B4C005D263D /* SharingTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharingTestTests.m; sourceTree = "<group>"; };
+		819D1B151C2E9C58005D263D /* BNCConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNCConfig.h; path = "SharingTest/Branch-SDK/BNCConfig.h"; sourceTree = "<group>"; };
+		819D1B161C2E9C58005D263D /* BNCContentDiscoveryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNCContentDiscoveryManager.h; path = "SharingTest/Branch-SDK/BNCContentDiscoveryManager.h"; sourceTree = "<group>"; };
+		819D1B171C2E9C58005D263D /* BNCContentDiscoveryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNCContentDiscoveryManager.m; path = "SharingTest/Branch-SDK/BNCContentDiscoveryManager.m"; sourceTree = "<group>"; };
+		819D1B181C2E9C58005D263D /* BNCDebugRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNCDebugRequest.h; path = "SharingTest/Branch-SDK/BNCDebugRequest.h"; sourceTree = "<group>"; };
+		819D1B191C2E9C58005D263D /* BNCDebugRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNCDebugRequest.m; path = "SharingTest/Branch-SDK/BNCDebugRequest.m"; sourceTree = "<group>"; };
+		819D1B1A1C2E9C58005D263D /* BNCEncodingUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNCEncodingUtils.h; path = "SharingTest/Branch-SDK/BNCEncodingUtils.h"; sourceTree = "<group>"; };
+		819D1B1B1C2E9C58005D263D /* BNCEncodingUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNCEncodingUtils.m; path = "SharingTest/Branch-SDK/BNCEncodingUtils.m"; sourceTree = "<group>"; };
+		819D1B1C1C2E9C58005D263D /* BNCError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNCError.h; path = "SharingTest/Branch-SDK/BNCError.h"; sourceTree = "<group>"; };
+		819D1B1D1C2E9C58005D263D /* BNCError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNCError.m; path = "SharingTest/Branch-SDK/BNCError.m"; sourceTree = "<group>"; };
+		819D1B1E1C2E9C58005D263D /* BNCLinkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNCLinkCache.h; path = "SharingTest/Branch-SDK/BNCLinkCache.h"; sourceTree = "<group>"; };
+		819D1B1F1C2E9C58005D263D /* BNCLinkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNCLinkCache.m; path = "SharingTest/Branch-SDK/BNCLinkCache.m"; sourceTree = "<group>"; };
+		819D1B201C2E9C58005D263D /* BNCLinkData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNCLinkData.h; path = "SharingTest/Branch-SDK/BNCLinkData.h"; sourceTree = "<group>"; };
+		819D1B211C2E9C58005D263D /* BNCLinkData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNCLinkData.m; path = "SharingTest/Branch-SDK/BNCLinkData.m"; sourceTree = "<group>"; };
+		819D1B221C2E9C58005D263D /* BNCPreferenceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNCPreferenceHelper.h; path = "SharingTest/Branch-SDK/BNCPreferenceHelper.h"; sourceTree = "<group>"; };
+		819D1B231C2E9C58005D263D /* BNCPreferenceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNCPreferenceHelper.m; path = "SharingTest/Branch-SDK/BNCPreferenceHelper.m"; sourceTree = "<group>"; };
+		819D1B241C2E9C58005D263D /* BNCServerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNCServerInterface.h; path = "SharingTest/Branch-SDK/BNCServerInterface.h"; sourceTree = "<group>"; };
+		819D1B251C2E9C58005D263D /* BNCServerInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNCServerInterface.m; path = "SharingTest/Branch-SDK/BNCServerInterface.m"; sourceTree = "<group>"; };
+		819D1B261C2E9C58005D263D /* BNCServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNCServerRequest.h; path = "SharingTest/Branch-SDK/BNCServerRequest.h"; sourceTree = "<group>"; };
+		819D1B271C2E9C58005D263D /* BNCServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNCServerRequest.m; path = "SharingTest/Branch-SDK/BNCServerRequest.m"; sourceTree = "<group>"; };
+		819D1B281C2E9C58005D263D /* BNCServerRequestQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNCServerRequestQueue.h; path = "SharingTest/Branch-SDK/BNCServerRequestQueue.h"; sourceTree = "<group>"; };
+		819D1B291C2E9C58005D263D /* BNCServerRequestQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNCServerRequestQueue.m; path = "SharingTest/Branch-SDK/BNCServerRequestQueue.m"; sourceTree = "<group>"; };
+		819D1B2A1C2E9C58005D263D /* BNCServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNCServerResponse.h; path = "SharingTest/Branch-SDK/BNCServerResponse.h"; sourceTree = "<group>"; };
+		819D1B2B1C2E9C58005D263D /* BNCServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNCServerResponse.m; path = "SharingTest/Branch-SDK/BNCServerResponse.m"; sourceTree = "<group>"; };
+		819D1B2C1C2E9C58005D263D /* BNCStrongMatchHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNCStrongMatchHelper.h; path = "SharingTest/Branch-SDK/BNCStrongMatchHelper.h"; sourceTree = "<group>"; };
+		819D1B2D1C2E9C58005D263D /* BNCStrongMatchHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNCStrongMatchHelper.m; path = "SharingTest/Branch-SDK/BNCStrongMatchHelper.m"; sourceTree = "<group>"; };
+		819D1B2E1C2E9C58005D263D /* BNCSystemObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNCSystemObserver.h; path = "SharingTest/Branch-SDK/BNCSystemObserver.h"; sourceTree = "<group>"; };
+		819D1B2F1C2E9C58005D263D /* BNCSystemObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNCSystemObserver.m; path = "SharingTest/Branch-SDK/BNCSystemObserver.m"; sourceTree = "<group>"; };
+		819D1B301C2E9C58005D263D /* Branch-SDK-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Branch-SDK-Prefix.pch"; path = "SharingTest/Branch-SDK/Branch-SDK-Prefix.pch"; sourceTree = "<group>"; };
+		819D1B311C2E9C58005D263D /* Branch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Branch.h; path = "SharingTest/Branch-SDK/Branch.h"; sourceTree = "<group>"; };
+		819D1B321C2E9C58005D263D /* Branch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Branch.m; path = "SharingTest/Branch-SDK/Branch.m"; sourceTree = "<group>"; };
+		819D1B331C2E9C58005D263D /* BranchActivityItemProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchActivityItemProvider.h; path = "SharingTest/Branch-SDK/BranchActivityItemProvider.h"; sourceTree = "<group>"; };
+		819D1B341C2E9C58005D263D /* BranchActivityItemProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchActivityItemProvider.m; path = "SharingTest/Branch-SDK/BranchActivityItemProvider.m"; sourceTree = "<group>"; };
+		819D1B351C2E9C58005D263D /* BranchApplyPromoCodeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchApplyPromoCodeRequest.h; path = "SharingTest/Branch-SDK/BranchApplyPromoCodeRequest.h"; sourceTree = "<group>"; };
+		819D1B361C2E9C58005D263D /* BranchApplyPromoCodeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchApplyPromoCodeRequest.m; path = "SharingTest/Branch-SDK/BranchApplyPromoCodeRequest.m"; sourceTree = "<group>"; };
+		819D1B371C2E9C58005D263D /* BranchCloseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchCloseRequest.h; path = "SharingTest/Branch-SDK/BranchCloseRequest.h"; sourceTree = "<group>"; };
+		819D1B381C2E9C58005D263D /* BranchCloseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchCloseRequest.m; path = "SharingTest/Branch-SDK/BranchCloseRequest.m"; sourceTree = "<group>"; };
+		819D1B391C2E9C58005D263D /* BranchConnectDebugRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchConnectDebugRequest.h; path = "SharingTest/Branch-SDK/BranchConnectDebugRequest.h"; sourceTree = "<group>"; };
+		819D1B3A1C2E9C58005D263D /* BranchConnectDebugRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchConnectDebugRequest.m; path = "SharingTest/Branch-SDK/BranchConnectDebugRequest.m"; sourceTree = "<group>"; };
+		819D1B3B1C2E9C58005D263D /* BranchConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchConstants.h; path = "SharingTest/Branch-SDK/BranchConstants.h"; sourceTree = "<group>"; };
+		819D1B3C1C2E9C58005D263D /* BranchConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchConstants.m; path = "SharingTest/Branch-SDK/BranchConstants.m"; sourceTree = "<group>"; };
+		819D1B3D1C2E9C58005D263D /* BranchCreditHistoryRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchCreditHistoryRequest.h; path = "SharingTest/Branch-SDK/BranchCreditHistoryRequest.h"; sourceTree = "<group>"; };
+		819D1B3E1C2E9C58005D263D /* BranchCreditHistoryRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchCreditHistoryRequest.m; path = "SharingTest/Branch-SDK/BranchCreditHistoryRequest.m"; sourceTree = "<group>"; };
+		819D1B3F1C2E9C58005D263D /* BranchCSSearchableItemAttributeSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchCSSearchableItemAttributeSet.h; path = "SharingTest/Branch-SDK/BranchCSSearchableItemAttributeSet.h"; sourceTree = "<group>"; };
+		819D1B401C2E9C58005D263D /* BranchCSSearchableItemAttributeSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchCSSearchableItemAttributeSet.m; path = "SharingTest/Branch-SDK/BranchCSSearchableItemAttributeSet.m"; sourceTree = "<group>"; };
+		819D1B411C2E9C58005D263D /* BranchDeepLinkingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchDeepLinkingController.h; path = "SharingTest/Branch-SDK/BranchDeepLinkingController.h"; sourceTree = "<group>"; };
+		819D1B421C2E9C58005D263D /* BranchDisconnectDebugRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchDisconnectDebugRequest.h; path = "SharingTest/Branch-SDK/BranchDisconnectDebugRequest.h"; sourceTree = "<group>"; };
+		819D1B431C2E9C58005D263D /* BranchDisconnectDebugRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchDisconnectDebugRequest.m; path = "SharingTest/Branch-SDK/BranchDisconnectDebugRequest.m"; sourceTree = "<group>"; };
+		819D1B441C2E9C58005D263D /* BranchGetPromoCodeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchGetPromoCodeRequest.h; path = "SharingTest/Branch-SDK/BranchGetPromoCodeRequest.h"; sourceTree = "<group>"; };
+		819D1B451C2E9C58005D263D /* BranchGetPromoCodeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchGetPromoCodeRequest.m; path = "SharingTest/Branch-SDK/BranchGetPromoCodeRequest.m"; sourceTree = "<group>"; };
+		819D1B461C2E9C58005D263D /* BranchInstallRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchInstallRequest.h; path = "SharingTest/Branch-SDK/BranchInstallRequest.h"; sourceTree = "<group>"; };
+		819D1B471C2E9C58005D263D /* BranchInstallRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchInstallRequest.m; path = "SharingTest/Branch-SDK/BranchInstallRequest.m"; sourceTree = "<group>"; };
+		819D1B481C2E9C58005D263D /* BranchLinkProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchLinkProperties.h; path = "SharingTest/Branch-SDK/BranchLinkProperties.h"; sourceTree = "<group>"; };
+		819D1B491C2E9C58005D263D /* BranchLinkProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchLinkProperties.m; path = "SharingTest/Branch-SDK/BranchLinkProperties.m"; sourceTree = "<group>"; };
+		819D1B4A1C2E9C58005D263D /* BranchLoadActionsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchLoadActionsRequest.h; path = "SharingTest/Branch-SDK/BranchLoadActionsRequest.h"; sourceTree = "<group>"; };
+		819D1B4B1C2E9C58005D263D /* BranchLoadActionsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchLoadActionsRequest.m; path = "SharingTest/Branch-SDK/BranchLoadActionsRequest.m"; sourceTree = "<group>"; };
+		819D1B4C1C2E9C58005D263D /* BranchLoadRewardsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchLoadRewardsRequest.h; path = "SharingTest/Branch-SDK/BranchLoadRewardsRequest.h"; sourceTree = "<group>"; };
+		819D1B4D1C2E9C58005D263D /* BranchLoadRewardsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchLoadRewardsRequest.m; path = "SharingTest/Branch-SDK/BranchLoadRewardsRequest.m"; sourceTree = "<group>"; };
+		819D1B4E1C2E9C58005D263D /* BranchLogoutRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchLogoutRequest.h; path = "SharingTest/Branch-SDK/BranchLogoutRequest.h"; sourceTree = "<group>"; };
+		819D1B4F1C2E9C58005D263D /* BranchLogoutRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchLogoutRequest.m; path = "SharingTest/Branch-SDK/BranchLogoutRequest.m"; sourceTree = "<group>"; };
+		819D1B501C2E9C58005D263D /* BranchLogRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchLogRequest.h; path = "SharingTest/Branch-SDK/BranchLogRequest.h"; sourceTree = "<group>"; };
+		819D1B511C2E9C58005D263D /* BranchLogRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchLogRequest.m; path = "SharingTest/Branch-SDK/BranchLogRequest.m"; sourceTree = "<group>"; };
+		819D1B521C2E9C58005D263D /* BranchOpenRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchOpenRequest.h; path = "SharingTest/Branch-SDK/BranchOpenRequest.h"; sourceTree = "<group>"; };
+		819D1B531C2E9C58005D263D /* BranchOpenRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchOpenRequest.m; path = "SharingTest/Branch-SDK/BranchOpenRequest.m"; sourceTree = "<group>"; };
+		819D1B541C2E9C58005D263D /* BranchRedeemRewardsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchRedeemRewardsRequest.h; path = "SharingTest/Branch-SDK/BranchRedeemRewardsRequest.h"; sourceTree = "<group>"; };
+		819D1B551C2E9C58005D263D /* BranchRedeemRewardsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchRedeemRewardsRequest.m; path = "SharingTest/Branch-SDK/BranchRedeemRewardsRequest.m"; sourceTree = "<group>"; };
+		819D1B561C2E9C58005D263D /* BranchRegisterViewRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchRegisterViewRequest.h; path = "SharingTest/Branch-SDK/BranchRegisterViewRequest.h"; sourceTree = "<group>"; };
+		819D1B571C2E9C58005D263D /* BranchRegisterViewRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchRegisterViewRequest.m; path = "SharingTest/Branch-SDK/BranchRegisterViewRequest.m"; sourceTree = "<group>"; };
+		819D1B581C2E9C58005D263D /* BranchSetIdentityRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchSetIdentityRequest.h; path = "SharingTest/Branch-SDK/BranchSetIdentityRequest.h"; sourceTree = "<group>"; };
+		819D1B591C2E9C58005D263D /* BranchSetIdentityRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchSetIdentityRequest.m; path = "SharingTest/Branch-SDK/BranchSetIdentityRequest.m"; sourceTree = "<group>"; };
+		819D1B5A1C2E9C58005D263D /* BranchShortUrlRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchShortUrlRequest.h; path = "SharingTest/Branch-SDK/BranchShortUrlRequest.h"; sourceTree = "<group>"; };
+		819D1B5B1C2E9C58005D263D /* BranchShortUrlRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchShortUrlRequest.m; path = "SharingTest/Branch-SDK/BranchShortUrlRequest.m"; sourceTree = "<group>"; };
+		819D1B5C1C2E9C58005D263D /* BranchShortUrlSyncRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchShortUrlSyncRequest.h; path = "SharingTest/Branch-SDK/BranchShortUrlSyncRequest.h"; sourceTree = "<group>"; };
+		819D1B5D1C2E9C58005D263D /* BranchShortUrlSyncRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchShortUrlSyncRequest.m; path = "SharingTest/Branch-SDK/BranchShortUrlSyncRequest.m"; sourceTree = "<group>"; };
+		819D1B5E1C2E9C58005D263D /* BranchSpotlightUrlRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchSpotlightUrlRequest.h; path = "SharingTest/Branch-SDK/BranchSpotlightUrlRequest.h"; sourceTree = "<group>"; };
+		819D1B5F1C2E9C58005D263D /* BranchSpotlightUrlRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchSpotlightUrlRequest.m; path = "SharingTest/Branch-SDK/BranchSpotlightUrlRequest.m"; sourceTree = "<group>"; };
+		819D1B601C2E9C58005D263D /* BranchUniversalObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchUniversalObject.h; path = "SharingTest/Branch-SDK/BranchUniversalObject.h"; sourceTree = "<group>"; };
+		819D1B611C2E9C58005D263D /* BranchUniversalObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchUniversalObject.m; path = "SharingTest/Branch-SDK/BranchUniversalObject.m"; sourceTree = "<group>"; };
+		819D1B621C2E9C58005D263D /* BranchUserCompletedActionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchUserCompletedActionRequest.h; path = "SharingTest/Branch-SDK/BranchUserCompletedActionRequest.h"; sourceTree = "<group>"; };
+		819D1B631C2E9C58005D263D /* BranchUserCompletedActionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchUserCompletedActionRequest.m; path = "SharingTest/Branch-SDK/BranchUserCompletedActionRequest.m"; sourceTree = "<group>"; };
+		819D1B641C2E9C58005D263D /* BranchValidatePromoCodeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchValidatePromoCodeRequest.h; path = "SharingTest/Branch-SDK/BranchValidatePromoCodeRequest.h"; sourceTree = "<group>"; };
+		819D1B651C2E9C58005D263D /* BranchValidatePromoCodeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchValidatePromoCodeRequest.m; path = "SharingTest/Branch-SDK/BranchValidatePromoCodeRequest.m"; sourceTree = "<group>"; };
+		819D1B8D1C2EA6EC005D263D /* ImgurUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgurUploader.h; sourceTree = "<group>"; };
+		819D1B8E1C2EA6EC005D263D /* ImgurUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgurUploader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		819D1A5C1C2E9B4C005D263D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819D1A751C2E9B4C005D263D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		819D1A561C2E9B4C005D263D = {
+			isa = PBXGroup;
+			children = (
+				819D1A881C2E9C22005D263D /* Branch */,
+				819D1A611C2E9B4C005D263D /* SharingTest */,
+				819D1A7B1C2E9B4C005D263D /* SharingTestTests */,
+				819D1A601C2E9B4C005D263D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		819D1A601C2E9B4C005D263D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				819D1A5F1C2E9B4C005D263D /* SharingTest.app */,
+				819D1A781C2E9B4C005D263D /* SharingTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		819D1A611C2E9B4C005D263D /* SharingTest */ = {
+			isa = PBXGroup;
+			children = (
+				819D1A661C2E9B4C005D263D /* AppDelegate.h */,
+				819D1A671C2E9B4C005D263D /* AppDelegate.m */,
+				819D1B8D1C2EA6EC005D263D /* ImgurUploader.h */,
+				819D1B8E1C2EA6EC005D263D /* ImgurUploader.m */,
+				819D1A691C2E9B4C005D263D /* ViewController.h */,
+				819D1A6A1C2E9B4C005D263D /* ViewController.m */,
+				819D1A6C1C2E9B4C005D263D /* Main.storyboard */,
+				819D1A6F1C2E9B4C005D263D /* Images.xcassets */,
+				819D1A711C2E9B4C005D263D /* LaunchScreen.xib */,
+				819D1A621C2E9B4C005D263D /* Supporting Files */,
+			);
+			path = SharingTest;
+			sourceTree = "<group>";
+		};
+		819D1A621C2E9B4C005D263D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				819D1A631C2E9B4C005D263D /* Info.plist */,
+				819D1A641C2E9B4C005D263D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		819D1A7B1C2E9B4C005D263D /* SharingTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				819D1A7E1C2E9B4C005D263D /* SharingTestTests.m */,
+				819D1A7C1C2E9B4C005D263D /* Supporting Files */,
+			);
+			path = SharingTestTests;
+			sourceTree = "<group>";
+		};
+		819D1A7C1C2E9B4C005D263D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				819D1A7D1C2E9B4C005D263D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		819D1A881C2E9C22005D263D /* Branch */ = {
+			isa = PBXGroup;
+			children = (
+				819D1B151C2E9C58005D263D /* BNCConfig.h */,
+				819D1B161C2E9C58005D263D /* BNCContentDiscoveryManager.h */,
+				819D1B171C2E9C58005D263D /* BNCContentDiscoveryManager.m */,
+				819D1B181C2E9C58005D263D /* BNCDebugRequest.h */,
+				819D1B191C2E9C58005D263D /* BNCDebugRequest.m */,
+				819D1B1A1C2E9C58005D263D /* BNCEncodingUtils.h */,
+				819D1B1B1C2E9C58005D263D /* BNCEncodingUtils.m */,
+				819D1B1C1C2E9C58005D263D /* BNCError.h */,
+				819D1B1D1C2E9C58005D263D /* BNCError.m */,
+				819D1B1E1C2E9C58005D263D /* BNCLinkCache.h */,
+				819D1B1F1C2E9C58005D263D /* BNCLinkCache.m */,
+				819D1B201C2E9C58005D263D /* BNCLinkData.h */,
+				819D1B211C2E9C58005D263D /* BNCLinkData.m */,
+				819D1B221C2E9C58005D263D /* BNCPreferenceHelper.h */,
+				819D1B231C2E9C58005D263D /* BNCPreferenceHelper.m */,
+				819D1B241C2E9C58005D263D /* BNCServerInterface.h */,
+				819D1B251C2E9C58005D263D /* BNCServerInterface.m */,
+				819D1B261C2E9C58005D263D /* BNCServerRequest.h */,
+				819D1B271C2E9C58005D263D /* BNCServerRequest.m */,
+				819D1B281C2E9C58005D263D /* BNCServerRequestQueue.h */,
+				819D1B291C2E9C58005D263D /* BNCServerRequestQueue.m */,
+				819D1B2A1C2E9C58005D263D /* BNCServerResponse.h */,
+				819D1B2B1C2E9C58005D263D /* BNCServerResponse.m */,
+				819D1B2C1C2E9C58005D263D /* BNCStrongMatchHelper.h */,
+				819D1B2D1C2E9C58005D263D /* BNCStrongMatchHelper.m */,
+				819D1B2E1C2E9C58005D263D /* BNCSystemObserver.h */,
+				819D1B2F1C2E9C58005D263D /* BNCSystemObserver.m */,
+				819D1B301C2E9C58005D263D /* Branch-SDK-Prefix.pch */,
+				819D1B311C2E9C58005D263D /* Branch.h */,
+				819D1B321C2E9C58005D263D /* Branch.m */,
+				819D1B331C2E9C58005D263D /* BranchActivityItemProvider.h */,
+				819D1B341C2E9C58005D263D /* BranchActivityItemProvider.m */,
+				819D1B351C2E9C58005D263D /* BranchApplyPromoCodeRequest.h */,
+				819D1B361C2E9C58005D263D /* BranchApplyPromoCodeRequest.m */,
+				819D1B371C2E9C58005D263D /* BranchCloseRequest.h */,
+				819D1B381C2E9C58005D263D /* BranchCloseRequest.m */,
+				819D1B391C2E9C58005D263D /* BranchConnectDebugRequest.h */,
+				819D1B3A1C2E9C58005D263D /* BranchConnectDebugRequest.m */,
+				819D1B3B1C2E9C58005D263D /* BranchConstants.h */,
+				819D1B3C1C2E9C58005D263D /* BranchConstants.m */,
+				819D1B3D1C2E9C58005D263D /* BranchCreditHistoryRequest.h */,
+				819D1B3E1C2E9C58005D263D /* BranchCreditHistoryRequest.m */,
+				819D1B3F1C2E9C58005D263D /* BranchCSSearchableItemAttributeSet.h */,
+				819D1B401C2E9C58005D263D /* BranchCSSearchableItemAttributeSet.m */,
+				819D1B411C2E9C58005D263D /* BranchDeepLinkingController.h */,
+				819D1B421C2E9C58005D263D /* BranchDisconnectDebugRequest.h */,
+				819D1B431C2E9C58005D263D /* BranchDisconnectDebugRequest.m */,
+				819D1B441C2E9C58005D263D /* BranchGetPromoCodeRequest.h */,
+				819D1B451C2E9C58005D263D /* BranchGetPromoCodeRequest.m */,
+				819D1B461C2E9C58005D263D /* BranchInstallRequest.h */,
+				819D1B471C2E9C58005D263D /* BranchInstallRequest.m */,
+				819D1B481C2E9C58005D263D /* BranchLinkProperties.h */,
+				819D1B491C2E9C58005D263D /* BranchLinkProperties.m */,
+				819D1B4A1C2E9C58005D263D /* BranchLoadActionsRequest.h */,
+				819D1B4B1C2E9C58005D263D /* BranchLoadActionsRequest.m */,
+				819D1B4C1C2E9C58005D263D /* BranchLoadRewardsRequest.h */,
+				819D1B4D1C2E9C58005D263D /* BranchLoadRewardsRequest.m */,
+				819D1B4E1C2E9C58005D263D /* BranchLogoutRequest.h */,
+				819D1B4F1C2E9C58005D263D /* BranchLogoutRequest.m */,
+				819D1B501C2E9C58005D263D /* BranchLogRequest.h */,
+				819D1B511C2E9C58005D263D /* BranchLogRequest.m */,
+				819D1B521C2E9C58005D263D /* BranchOpenRequest.h */,
+				819D1B531C2E9C58005D263D /* BranchOpenRequest.m */,
+				819D1B541C2E9C58005D263D /* BranchRedeemRewardsRequest.h */,
+				819D1B551C2E9C58005D263D /* BranchRedeemRewardsRequest.m */,
+				819D1B561C2E9C58005D263D /* BranchRegisterViewRequest.h */,
+				819D1B571C2E9C58005D263D /* BranchRegisterViewRequest.m */,
+				819D1B581C2E9C58005D263D /* BranchSetIdentityRequest.h */,
+				819D1B591C2E9C58005D263D /* BranchSetIdentityRequest.m */,
+				819D1B5A1C2E9C58005D263D /* BranchShortUrlRequest.h */,
+				819D1B5B1C2E9C58005D263D /* BranchShortUrlRequest.m */,
+				819D1B5C1C2E9C58005D263D /* BranchShortUrlSyncRequest.h */,
+				819D1B5D1C2E9C58005D263D /* BranchShortUrlSyncRequest.m */,
+				819D1B5E1C2E9C58005D263D /* BranchSpotlightUrlRequest.h */,
+				819D1B5F1C2E9C58005D263D /* BranchSpotlightUrlRequest.m */,
+				819D1B601C2E9C58005D263D /* BranchUniversalObject.h */,
+				819D1B611C2E9C58005D263D /* BranchUniversalObject.m */,
+				819D1B621C2E9C58005D263D /* BranchUserCompletedActionRequest.h */,
+				819D1B631C2E9C58005D263D /* BranchUserCompletedActionRequest.m */,
+				819D1B641C2E9C58005D263D /* BranchValidatePromoCodeRequest.h */,
+				819D1B651C2E9C58005D263D /* BranchValidatePromoCodeRequest.m */,
+			);
+			name = Branch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		819D1A5E1C2E9B4C005D263D /* SharingTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 819D1A821C2E9B4C005D263D /* Build configuration list for PBXNativeTarget "SharingTest" */;
+			buildPhases = (
+				819D1A5B1C2E9B4C005D263D /* Sources */,
+				819D1A5C1C2E9B4C005D263D /* Frameworks */,
+				819D1A5D1C2E9B4C005D263D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SharingTest;
+			productName = SharingTest;
+			productReference = 819D1A5F1C2E9B4C005D263D /* SharingTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		819D1A771C2E9B4C005D263D /* SharingTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 819D1A851C2E9B4C005D263D /* Build configuration list for PBXNativeTarget "SharingTestTests" */;
+			buildPhases = (
+				819D1A741C2E9B4C005D263D /* Sources */,
+				819D1A751C2E9B4C005D263D /* Frameworks */,
+				819D1A761C2E9B4C005D263D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				819D1A7A1C2E9B4C005D263D /* PBXTargetDependency */,
+			);
+			name = SharingTestTests;
+			productName = SharingTestTests;
+			productReference = 819D1A781C2E9B4C005D263D /* SharingTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		819D1A571C2E9B4C005D263D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Little Yoda";
+				TargetAttributes = {
+					819D1A5E1C2E9B4C005D263D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					819D1A771C2E9B4C005D263D = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 819D1A5E1C2E9B4C005D263D;
+					};
+				};
+			};
+			buildConfigurationList = 819D1A5A1C2E9B4C005D263D /* Build configuration list for PBXProject "SharingTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 819D1A561C2E9B4C005D263D;
+			productRefGroup = 819D1A601C2E9B4C005D263D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				819D1A5E1C2E9B4C005D263D /* SharingTest */,
+				819D1A771C2E9B4C005D263D /* SharingTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		819D1A5D1C2E9B4C005D263D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819D1A6E1C2E9B4C005D263D /* Main.storyboard in Resources */,
+				819D1A731C2E9B4C005D263D /* LaunchScreen.xib in Resources */,
+				819D1A701C2E9B4C005D263D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819D1A761C2E9B4C005D263D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		819D1A5B1C2E9B4C005D263D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819D1B8A1C2E9C58005D263D /* BranchUniversalObject.m in Sources */,
+				819D1B691C2E9C58005D263D /* BNCError.m in Sources */,
+				819D1B661C2E9C58005D263D /* BNCContentDiscoveryManager.m in Sources */,
+				819D1B751C2E9C58005D263D /* BranchApplyPromoCodeRequest.m in Sources */,
+				819D1B6D1C2E9C58005D263D /* BNCServerInterface.m in Sources */,
+				819D1B7F1C2E9C58005D263D /* BranchLoadActionsRequest.m in Sources */,
+				819D1B881C2E9C58005D263D /* BranchShortUrlSyncRequest.m in Sources */,
+				819D1B6C1C2E9C58005D263D /* BNCPreferenceHelper.m in Sources */,
+				819D1B821C2E9C58005D263D /* BranchLogRequest.m in Sources */,
+				819D1B7C1C2E9C58005D263D /* BranchGetPromoCodeRequest.m in Sources */,
+				819D1B851C2E9C58005D263D /* BranchRegisterViewRequest.m in Sources */,
+				819D1B6E1C2E9C58005D263D /* BNCServerRequest.m in Sources */,
+				819D1B891C2E9C58005D263D /* BranchSpotlightUrlRequest.m in Sources */,
+				819D1B861C2E9C58005D263D /* BranchSetIdentityRequest.m in Sources */,
+				819D1B7D1C2E9C58005D263D /* BranchInstallRequest.m in Sources */,
+				819D1B6F1C2E9C58005D263D /* BNCServerRequestQueue.m in Sources */,
+				819D1B741C2E9C58005D263D /* BranchActivityItemProvider.m in Sources */,
+				819D1A6B1C2E9B4C005D263D /* ViewController.m in Sources */,
+				819D1B731C2E9C58005D263D /* Branch.m in Sources */,
+				819D1B811C2E9C58005D263D /* BranchLogoutRequest.m in Sources */,
+				819D1B8C1C2E9C58005D263D /* BranchValidatePromoCodeRequest.m in Sources */,
+				819D1B681C2E9C58005D263D /* BNCEncodingUtils.m in Sources */,
+				819D1A681C2E9B4C005D263D /* AppDelegate.m in Sources */,
+				819D1B8F1C2EA6EC005D263D /* ImgurUploader.m in Sources */,
+				819D1B791C2E9C58005D263D /* BranchCreditHistoryRequest.m in Sources */,
+				819D1B841C2E9C58005D263D /* BranchRedeemRewardsRequest.m in Sources */,
+				819D1B831C2E9C58005D263D /* BranchOpenRequest.m in Sources */,
+				819D1B761C2E9C58005D263D /* BranchCloseRequest.m in Sources */,
+				819D1B781C2E9C58005D263D /* BranchConstants.m in Sources */,
+				819D1B701C2E9C58005D263D /* BNCServerResponse.m in Sources */,
+				819D1A651C2E9B4C005D263D /* main.m in Sources */,
+				819D1B871C2E9C58005D263D /* BranchShortUrlRequest.m in Sources */,
+				819D1B801C2E9C58005D263D /* BranchLoadRewardsRequest.m in Sources */,
+				819D1B6B1C2E9C58005D263D /* BNCLinkData.m in Sources */,
+				819D1B771C2E9C58005D263D /* BranchConnectDebugRequest.m in Sources */,
+				819D1B6A1C2E9C58005D263D /* BNCLinkCache.m in Sources */,
+				819D1B7E1C2E9C58005D263D /* BranchLinkProperties.m in Sources */,
+				819D1B8B1C2E9C58005D263D /* BranchUserCompletedActionRequest.m in Sources */,
+				819D1B7A1C2E9C58005D263D /* BranchCSSearchableItemAttributeSet.m in Sources */,
+				819D1B671C2E9C58005D263D /* BNCDebugRequest.m in Sources */,
+				819D1B7B1C2E9C58005D263D /* BranchDisconnectDebugRequest.m in Sources */,
+				819D1B721C2E9C58005D263D /* BNCSystemObserver.m in Sources */,
+				819D1B711C2E9C58005D263D /* BNCStrongMatchHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819D1A741C2E9B4C005D263D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819D1A7F1C2E9B4C005D263D /* SharingTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		819D1A7A1C2E9B4C005D263D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 819D1A5E1C2E9B4C005D263D /* SharingTest */;
+			targetProxy = 819D1A791C2E9B4C005D263D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		819D1A6C1C2E9B4C005D263D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				819D1A6D1C2E9B4C005D263D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		819D1A711C2E9B4C005D263D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				819D1A721C2E9B4C005D263D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		819D1A801C2E9B4C005D263D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		819D1A811C2E9B4C005D263D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		819D1A831C2E9B4C005D263D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SharingTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		819D1A841C2E9B4C005D263D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SharingTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		819D1A861C2E9B4C005D263D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SharingTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharingTest.app/SharingTest";
+			};
+			name = Debug;
+		};
+		819D1A871C2E9B4C005D263D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SharingTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharingTest.app/SharingTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		819D1A5A1C2E9B4C005D263D /* Build configuration list for PBXProject "SharingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819D1A801C2E9B4C005D263D /* Debug */,
+				819D1A811C2E9B4C005D263D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		819D1A821C2E9B4C005D263D /* Build configuration list for PBXNativeTarget "SharingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819D1A831C2E9B4C005D263D /* Debug */,
+				819D1A841C2E9B4C005D263D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		819D1A851C2E9B4C005D263D /* Build configuration list for PBXNativeTarget "SharingTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819D1A861C2E9B4C005D263D /* Debug */,
+				819D1A871C2E9B4C005D263D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 819D1A571C2E9B4C005D263D /* Project object */;
+}
